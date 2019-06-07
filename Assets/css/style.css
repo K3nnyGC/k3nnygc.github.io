@@ -1,0 +1,127 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+/*##########Propios#########*/
+.padre {
+	position: relative !important;
+}
+
+.hijo {
+	position: absolute !important;
+}
+
+.centrado{
+	text-align: center !important;
+	align-content: center;
+}
+
+
+.justificado{
+	text-align: justify;
+}
+
+.centrado-total{
+	left: 50%;
+	top: 35%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.centrado-absoluto{
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.zero{
+  padding: 0;
+  margin: 0;
+}
+
+.p0{
+  padding: 0;
+}
+
+.m0{
+  margin:0;
+}
+
+.blacksoft{
+	background-color: #323234 !important;
+}
+.blacksoft-text{
+	color: #323234 !important;
+}
+/*##########################*/
+
+/*#########Router###########*/
+.router-link-exact-active{
+  background-color: white;
+  color : green;
+}
+/*##########################*/
+
+/*#########Globales###########*/
+#file-preview {
+  width: 100%;
+  border:white solid 10px;
+}
+/*##########################*/
