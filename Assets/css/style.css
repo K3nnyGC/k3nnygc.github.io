@@ -77,6 +77,14 @@ footer.page-footer {
 	text-align: justify;
 }
 
+.izquierda{
+	text-align: left;
+}
+
+.derecha{
+  text-align: right;
+}
+
 .centrado-total{
 	left: 50%;
 	top: 35%;
@@ -123,5 +131,8 @@ footer.page-footer {
 #file-preview {
   width: 100%;
   border:white solid 10px;
+}
+.drag-target{
+  width: 20px !important;
 }
 /*##########################*/
